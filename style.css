@@ -119,6 +119,17 @@ img { max-width: 100%; display: block; }
 .match-league { color: var(--text-dim); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
 @media (max-width: 640px) { .match-card { grid-template-columns: 1fr; } }
 
+/* ENGAGE BOXES */
+.engage { padding: 50px 0 0; }
+.engage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.engage-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px;
+}
+.engage-card h3 { font-size: 19px; font-weight: 800; margin: 0 0 10px; }
+.engage-card p { color: var(--text-dim); font-size: 14.5px; line-height: 1.6; margin: 0 0 18px; }
+.engage-card .btn-outline { padding: 10px 20px; font-size: 13px; }
+@media (max-width: 640px) { .engage-grid { grid-template-columns: 1fr; } }
+
 /* INSTAGRAM */
 .instagram-section { padding: 90px 0; background: var(--bg-alt); border-top: 1px solid var(--border); }
 .insta-grid { display: grid; grid-template-columns: 0.6fr 1.4fr; gap: 50px; align-items: center; }
